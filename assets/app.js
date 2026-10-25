@@ -11,9 +11,15 @@ function paint() {
   $('empty').hidden = Boolean(item);
   if (!item) return;
   const hero = $('hero');
-  hero.src = imageUrl(matchMedia('(max-width: 600px)').matches && item.mobileImage ? item.mobileImage : item.heroImage);
+  const src = imageUrl(matchMedia('(max-width: 600px)').matches && item.mobileImage ? item.mobileImage : item.heroImage);
+  hero.src = src;
   hero.alt = item.name;
   hero.style.objectPosition = item.imagePosition || '50% 50%';
+  $('viewer').dataset.imageFit = item.imageFit === 'contain' ? 'contain' : 'cover';
+  const backdrop = $('hero-backdrop');
+  backdrop.src = src;
+  backdrop.hidden = false;
+  backdrop.style.objectPosition = item.imagePosition || '50% 50%';
   $('position').textContent = `${String(index+1).padStart(2,'0')} / ${String(items.length).padStart(2,'0')}`;
   $('name').textContent = item.name;
   $('subtitle').textContent = item.subtitle || item.category || '';
