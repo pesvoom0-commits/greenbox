@@ -1,8 +1,8 @@
-// GREEN BOX — selected items currently on public display (20 entries).
-// User-approved selection catalog: content/selected-candidates.json (55 candidates).
-// imageFit: 'contain' ensures the full object is visible; a blurred copy fills the backdrop.
-// External photo URLs are provisional. Review image identity, rights, dimensions and save locally.
-// colorHex values are still visual estimates, not verified pixel samples.
+// GREEN BOX の現在の表示データ。
+// 選定済み55件の原本は content/selected-candidates.json に保存。
+// 初期12件は掲載元の写真URLを一時参照しています。Codexで画像をローカル保存し、
+// 利用条件・出典・画像の同一性を確認してから安定したローカルパスに置換してください。
+// colorHex は画像の厳密な画素抽出ではなく目視による暫定値です。
 export const items = [
   {
     "id": "c044",
@@ -29,8 +29,7 @@ export const items = [
     "imageCredit": "参照元サイト（詳細内リンク参照）",
     "imageLicense": "確認中",
     "videoUrl": "",
-    "sortOrder": 1,
-    "imageFit": "contain"
+    "sortOrder": 1
   },
   {
     "id": "c045",
@@ -46,19 +45,18 @@ export const items = [
     ],
     "era": "2024年",
     "material": "蓄光素材",
-    "heroImage": "https://cdn.mos.cms.futurecdn.net/Ghq4rJ5AoFCC5TMseoCEMK.jpg",
-    "thumbnailImage": "https://cdn.mos.cms.futurecdn.net/Ghq4rJ5AoFCC5TMseoCEMK.jpg",
+    "heroImage": "https://bsmedia.business-standard.com/_media/bs/img/article/2024-10/30/thumb/featurecrop/400X400/1730290451-2914.png",
+    "thumbnailImage": "https://bsmedia.business-standard.com/_media/bs/img/article/2024-10/30/thumb/featurecrop/400X400/1730290451-2914.png",
     "imagePosition": "50% 50%",
     "thumbnailPosition": "50% 50%",
     "colorHex": "#57CDA0",
     "colorGroup": "蓄光",
     "sourceUrl": "https://nothing.community/en/d/19157-introducing-phone-2a-plus-community-edition",
-    "imageSourceUrl": "https://cdn.mos.cms.futurecdn.net/Ghq4rJ5AoFCC5TMseoCEMK.jpg",
+    "imageSourceUrl": "https://bsmedia.business-standard.com/_media/bs/img/article/2024-10/30/thumb/featurecrop/400X400/1730290451-2914.png",
     "imageCredit": "参照元サイト（詳細内リンク参照）",
     "imageLicense": "確認中",
     "videoUrl": "",
-    "sortOrder": 2,
-    "imageFit": "contain"
+    "sortOrder": 2
   },
   {
     "id": "c046",
@@ -85,8 +83,7 @@ export const items = [
     "imageCredit": "参照元サイト（詳細内リンク参照）",
     "imageLicense": "確認中",
     "videoUrl": "",
-    "sortOrder": 3,
-    "imageFit": "contain"
+    "sortOrder": 3
   },
   {
     "id": "c047",
@@ -102,7 +99,7 @@ export const items = [
     "era": "",
     "material": "樹脂・金属",
     "heroImage": "https://cdn.shopify.com/s/files/1/0651/3668/9323/files/86788a5864d94cada3480921b034b5eb_2000x2000.jpg",
-    "thumbnailImage": "https://cdn.shopify.com/s/files/1/0651/3668/9323/files/86788a5864d94cada3480921b034b5eb_2000x2000.jpg",
+    "thumbnailImage": "https://cdn.shopify.com/s/files/1/0651/3668/9323/files/86788a5864d94cada3480921b034b5eb_2000x2000.jpg?crop=center&height=96&v=1767133449&width=100",
     "imagePosition": "50% 50%",
     "thumbnailPosition": "50% 50%",
     "colorHex": "#C5E22B",
@@ -112,8 +109,7 @@ export const items = [
     "imageCredit": "参照元サイト（詳細内リンク参照）",
     "imageLicense": "確認中",
     "videoUrl": "",
-    "sortOrder": 4,
-    "imageFit": "contain"
+    "sortOrder": 4
   },
   {
     "id": "c048",
@@ -129,19 +125,18 @@ export const items = [
     ],
     "era": "2004年",
     "material": "アルミニウム",
-    "heroImage": "https://retrospekt.com/cdn/shop/files/MP-VR-1007_1.jpg?v=1694629028&width=1000",
-    "thumbnailImage": "https://retrospekt.com/cdn/shop/files/MP-VR-1007_1.jpg?v=1694629028&width=1000",
+    "heroImage": "https://www.ipodtotal.com/imagenes/modelos/ipod-mini-1g-verde.jpg",
+    "thumbnailImage": "https://www.ipodtotal.com/imagenes/modelos/ipod-mini-1g-verde.jpg",
     "imagePosition": "50% 50%",
     "thumbnailPosition": "50% 50%",
     "colorHex": "#9BB75C",
     "colorGroup": "ライム",
     "sourceUrl": "https://www.apple.com/jp/newsroom/2004/01/06Apple-Introduces-iPod-mini/",
-    "imageSourceUrl": "https://retrospekt.com/cdn/shop/files/MP-VR-1007_1.jpg?v=1694629028&width=1000",
+    "imageSourceUrl": "https://www.ipodtotal.com/imagenes/modelos/ipod-mini-1g-verde.jpg",
     "imageCredit": "参照元サイト（詳細内リンク参照）",
     "imageLicense": "確認中",
     "videoUrl": "",
-    "sortOrder": 5,
-    "imageFit": "contain"
+    "sortOrder": 5
   },
   {
     "id": "c049",
@@ -168,8 +163,7 @@ export const items = [
     "imageCredit": "参照元サイト（詳細内リンク参照）",
     "imageLicense": "確認中",
     "videoUrl": "",
-    "sortOrder": 6,
-    "imageFit": "contain"
+    "sortOrder": 6
   },
   {
     "id": "c050",
@@ -185,19 +179,18 @@ export const items = [
     ],
     "era": "2001年",
     "material": "樹脂",
-    "heroImage": "https://www.lego.com/cdn/cs/set/assets/bltef932a812733f5b6/8535_prod_lewa_air.jpg",
-    "thumbnailImage": "https://www.lego.com/cdn/cs/set/assets/bltef932a812733f5b6/8535_prod_lewa_air.jpg",
+    "heroImage": "https://www.lego.com/cdn/cs/set/assets/bltef932a812733f5b6/8535_prod_lewa_air.jpg?dpr=1&dpr=1%3Ffit%3Dcrop&format=jpg&quality=80&width=700",
+    "thumbnailImage": "https://www.lego.com/cdn/cs/set/assets/bltef932a812733f5b6/8535_prod_lewa_air.jpg?dpr=1&dpr=1%3Ffit%3Dcrop&format=jpg&quality=80&width=700",
     "imagePosition": "50% 50%",
     "thumbnailPosition": "50% 50%",
     "colorHex": "#4A9C42",
     "colorGroup": "ライム",
     "sourceUrl": "https://www.lego.com/en-gb/themes/retired/lego-bionicle",
-    "imageSourceUrl": "https://www.lego.com/cdn/cs/set/assets/bltef932a812733f5b6/8535_prod_lewa_air.jpg",
+    "imageSourceUrl": "https://www.lego.com/cdn/cs/set/assets/bltef932a812733f5b6/8535_prod_lewa_air.jpg?dpr=1&dpr=1%3Ffit%3Dcrop&format=jpg&quality=80&width=700",
     "imageCredit": "参照元サイト（詳細内リンク参照）",
     "imageLicense": "確認中",
     "videoUrl": "",
-    "sortOrder": 7,
-    "imageFit": "contain"
+    "sortOrder": 7
   },
   {
     "id": "c051",
@@ -224,8 +217,7 @@ export const items = [
     "imageCredit": "参照元サイト（詳細内リンク参照）",
     "imageLicense": "確認中",
     "videoUrl": "",
-    "sortOrder": 8,
-    "imageFit": "contain"
+    "sortOrder": 8
   },
   {
     "id": "c052",
@@ -252,8 +244,7 @@ export const items = [
     "imageCredit": "参照元サイト（詳細内リンク参照）",
     "imageLicense": "確認中",
     "videoUrl": "",
-    "sortOrder": 9,
-    "imageFit": "contain"
+    "sortOrder": 9
   },
   {
     "id": "c053",
@@ -280,8 +271,7 @@ export const items = [
     "imageCredit": "参照元サイト（詳細内リンク参照）",
     "imageLicense": "確認中",
     "videoUrl": "",
-    "sortOrder": 10,
-    "imageFit": "contain"
+    "sortOrder": 10
   },
   {
     "id": "c054",
@@ -307,8 +297,7 @@ export const items = [
     "imageCredit": "参照元サイト（詳細内リンク参照）",
     "imageLicense": "確認中",
     "videoUrl": "",
-    "sortOrder": 11,
-    "imageFit": "contain"
+    "sortOrder": 11
   },
   {
     "id": "c055",
@@ -335,8 +324,7 @@ export const items = [
     "imageCredit": "参照元サイト（詳細内リンク参照）",
     "imageLicense": "確認中",
     "videoUrl": "",
-    "sortOrder": 12,
-    "imageFit": "contain"
+    "sortOrder": 12
   },
   {
     "id": "c001",
@@ -363,8 +351,7 @@ export const items = [
     "imageCredit": "参照元ページ記載",
     "imageLicense": "確認中",
     "videoUrl": "",
-    "sortOrder": 13,
-    "imageFit": "contain"
+    "sortOrder": 13
   },
   {
     "id": "c002",
@@ -391,8 +378,7 @@ export const items = [
     "imageCredit": "参照元ページ記載",
     "imageLicense": "確認中",
     "videoUrl": "",
-    "sortOrder": 14,
-    "imageFit": "contain"
+    "sortOrder": 14
   },
   {
     "id": "c005",
@@ -419,8 +405,7 @@ export const items = [
     "imageCredit": "参照元ページ記載",
     "imageLicense": "確認中",
     "videoUrl": "",
-    "sortOrder": 15,
-    "imageFit": "contain"
+    "sortOrder": 15
   },
   {
     "id": "c006",
@@ -446,8 +431,7 @@ export const items = [
     "imageCredit": "参照元ページ記載",
     "imageLicense": "確認中",
     "videoUrl": "",
-    "sortOrder": 16,
-    "imageFit": "contain"
+    "sortOrder": 16
   },
   {
     "id": "c007",
@@ -474,8 +458,7 @@ export const items = [
     "imageCredit": "参照元ページ記載",
     "imageLicense": "確認中",
     "videoUrl": "",
-    "sortOrder": 17,
-    "imageFit": "contain"
+    "sortOrder": 17
   },
   {
     "id": "c010",
@@ -502,8 +485,7 @@ export const items = [
     "imageCredit": "参照元ページ記載",
     "imageLicense": "確認中",
     "videoUrl": "",
-    "sortOrder": 18,
-    "imageFit": "contain"
+    "sortOrder": 18
   },
   {
     "id": "c011",
@@ -529,8 +511,7 @@ export const items = [
     "imageCredit": "参照元ページ記載",
     "imageLicense": "確認中",
     "videoUrl": "",
-    "sortOrder": 19,
-    "imageFit": "contain"
+    "sortOrder": 19
   },
   {
     "id": "c026",
@@ -556,7 +537,6 @@ export const items = [
     "imageCredit": "参照元ページ記載",
     "imageLicense": "確認中",
     "videoUrl": "",
-    "sortOrder": 20,
-    "imageFit": "contain"
+    "sortOrder": 20
   }
 ];
