@@ -15,7 +15,7 @@ function paint() {
   hero.src = src;
   hero.alt = item.name;
   hero.style.objectPosition = item.imagePosition || '50% 50%';
-  $('viewer').dataset.imageFit = item.imageFit === 'contain' ? 'contain' : 'cover';
+  $('viewer').dataset.imageFit = item.imageFit === 'cover' ? 'cover' : 'contain';
   const backdrop = $('hero-backdrop');
   backdrop.src = src;
   backdrop.hidden = false;
