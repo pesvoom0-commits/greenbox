@@ -1,0 +1,16 @@
+{
+  "name": "green-box",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build --base=/greenbox/",
+    "preview": "vite preview --host 0.0.0.0 --base=/greenbox/",
+    "test": "node --test tests/*.test.js",
+    "test:browser": "node tests/browser.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.64.1",
+    "vite": "^7.0.0"
+  }
+}

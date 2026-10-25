@@ -1,1 +1,16 @@
-
+<!doctype html>
+<html lang="ja">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta name="theme-color" content="#0d100e"><title>GREEN BOX</title><link rel="stylesheet" href="./assets/style.css"></head>
+<body>
+<main id="viewer" aria-label="GREEN BOX コレクション">
+  <img id="hero" alt="" hidden><div class="shade"></div>
+  <header><a class="brand" href="#" aria-label="GREEN BOX トップ"><span class="mark" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><span>GREEN BOX</span></a><button id="open-search" class="icon" aria-label="検索を開く"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg></button></header>
+  <p id="empty">まだアイテムが登録されていません</p>
+  <button id="previous" class="arrow previous" aria-label="前のアイテム" hidden><span aria-hidden="true"></span></button><button id="next" class="arrow next" aria-label="次のアイテム" hidden><span aria-hidden="true"></span></button>
+  <footer id="caption" hidden><div class="item-text"><p id="position"></p><h1 id="name"></h1><p id="subtitle"></p></div><button id="open-detail" class="outline">詳細を見る</button></footer>
+  <span id="announcement" class="sr-only" aria-live="polite"></span>
+</main>
+<dialog id="detail" aria-labelledby="detail-name"><div class="sheet"><div class="sheet-head"><span class="handle" aria-hidden="true"></span><button class="icon close" id="close-detail" aria-label="詳細を閉じる">×</button></div><div class="sheet-content"><h2 id="detail-name"></h2><p id="detail-subtitle" class="muted"></p><ul id="tags"></ul><p id="description"></p><section id="color"><h3>参考色</h3><div class="color-data"><span id="swatch"></span><dl id="color-codes"></dl></div><p class="color-note">写真からの参考色。CMYKは色プロファイル未指定の参考換算値です。</p></section><section id="video" hidden><h3>関連動画</h3><a id="video-link" target="_blank" rel="noopener noreferrer">動画を見る ↗</a></section><section id="source"><h3>参照元</h3><a id="source-link" target="_blank" rel="noopener noreferrer"></a></section></div></div></dialog>
+<dialog id="search" aria-label="コレクションを検索"><div class="search-page"><header><span class="brand"><span class="mark" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><span>GREEN BOX</span></span><button id="close-search" class="icon close" aria-label="検索を閉じる">×</button></header><div class="search-controls"><label class="search-input"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input id="query" type="search" placeholder="キーワードで探す" aria-label="すべての登録情報から検索" autocomplete="off"></label><div id="categories" class="categories" aria-label="カテゴリ"></div><div id="colors" class="colors" aria-label="色"></div></div><div id="results" class="results"></div><p id="search-empty" class="search-empty" role="status"></p></div></dialog>
+<script type="module" src="./assets/app.js"></script>
+</body></html>
