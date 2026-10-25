@@ -98,7 +98,7 @@ export const items = [
     ],
     "era": "",
     "material": "樹脂・金属",
-    "heroImage": "https://cdn.shopify.com/s/files/1/0651/3668/9323/files/86788a5864d94cada3480921b034b5eb_2000x2000.jpg?crop=center&height=96&v=1767133449&width=100",
+    "heroImage": "https://cdn.shopify.com/s/files/1/0651/3668/9323/files/86788a5864d94cada3480921b034b5eb_2000x2000.jpg",
     "thumbnailImage": "https://cdn.shopify.com/s/files/1/0651/3668/9323/files/86788a5864d94cada3480921b034b5eb_2000x2000.jpg?crop=center&height=96&v=1767133449&width=100",
     "imagePosition": "50% 50%",
     "thumbnailPosition": "50% 50%",
