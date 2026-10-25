@@ -1,8 +1,8 @@
-// GREEN BOX の現在の表示データ。
-// 選定済み55件の原本は content/selected-candidates.json に保存。
-// 初期12件は掲載元の写真URLを一時参照しています。Codexで画像をローカル保存し、
-// 利用条件・出典・画像の同一性を確認してから安定したローカルパスに置換してください。
-// colorHex は画像の厳密な画素抽出ではなく目視による暫定値です。
+// GREEN BOX — selected items currently on public display (20 entries).
+// User-approved selection catalog: content/selected-candidates.json (55 candidates).
+// imageFit: 'contain' ensures the full object is visible; a blurred copy fills the backdrop.
+// External photo URLs are provisional. Review image identity, rights, dimensions and save locally.
+// colorHex values are still visual estimates, not verified pixel samples.
 export const items = [
   {
     "id": "c044",
@@ -29,7 +29,8 @@ export const items = [
     "imageCredit": "参照元サイト（詳細内リンク参照）",
     "imageLicense": "確認中",
     "videoUrl": "",
-    "sortOrder": 1
+    "sortOrder": 1,
+    "imageFit": "contain"
   },
   {
     "id": "c045",
@@ -45,18 +46,19 @@ export const items = [
     ],
     "era": "2024年",
     "material": "蓄光素材",
-    "heroImage": "https://bsmedia.business-standard.com/_media/bs/img/article/2024-10/30/thumb/featurecrop/400X400/1730290451-2914.png",
-    "thumbnailImage": "https://bsmedia.business-standard.com/_media/bs/img/article/2024-10/30/thumb/featurecrop/400X400/1730290451-2914.png",
+    "heroImage": "https://cdn.mos.cms.futurecdn.net/Ghq4rJ5AoFCC5TMseoCEMK.jpg",
+    "thumbnailImage": "https://cdn.mos.cms.futurecdn.net/Ghq4rJ5AoFCC5TMseoCEMK.jpg",
     "imagePosition": "50% 50%",
     "thumbnailPosition": "50% 50%",
     "colorHex": "#57CDA0",
     "colorGroup": "蓄光",
     "sourceUrl": "https://nothing.community/en/d/19157-introducing-phone-2a-plus-community-edition",
-    "imageSourceUrl": "https://bsmedia.business-standard.com/_media/bs/img/article/2024-10/30/thumb/featurecrop/400X400/1730290451-2914.png",
+    "imageSourceUrl": "https://cdn.mos.cms.futurecdn.net/Ghq4rJ5AoFCC5TMseoCEMK.jpg",
     "imageCredit": "参照元サイト（詳細内リンク参照）",
     "imageLicense": "確認中",
     "videoUrl": "",
-    "sortOrder": 2
+    "sortOrder": 2,
+    "imageFit": "contain"
   },
   {
     "id": "c046",
@@ -83,7 +85,8 @@ export const items = [
     "imageCredit": "参照元サイト（詳細内リンク参照）",
     "imageLicense": "確認中",
     "videoUrl": "",
-    "sortOrder": 3
+    "sortOrder": 3,
+    "imageFit": "contain"
   },
   {
     "id": "c047",
@@ -99,7 +102,7 @@ export const items = [
     "era": "",
     "material": "樹脂・金属",
     "heroImage": "https://cdn.shopify.com/s/files/1/0651/3668/9323/files/86788a5864d94cada3480921b034b5eb_2000x2000.jpg",
-    "thumbnailImage": "https://cdn.shopify.com/s/files/1/0651/3668/9323/files/86788a5864d94cada3480921b034b5eb_2000x2000.jpg?crop=center&height=96&v=1767133449&width=100",
+    "thumbnailImage": "https://cdn.shopify.com/s/files/1/0651/3668/9323/files/86788a5864d94cada3480921b034b5eb_2000x2000.jpg",
     "imagePosition": "50% 50%",
     "thumbnailPosition": "50% 50%",
     "colorHex": "#C5E22B",
@@ -109,7 +112,8 @@ export const items = [
     "imageCredit": "参照元サイト（詳細内リンク参照）",
     "imageLicense": "確認中",
     "videoUrl": "",
-    "sortOrder": 4
+    "sortOrder": 4,
+    "imageFit": "contain"
   },
   {
     "id": "c048",
@@ -125,18 +129,19 @@ export const items = [
     ],
     "era": "2004年",
     "material": "アルミニウム",
-    "heroImage": "https://www.ipodtotal.com/imagenes/modelos/ipod-mini-1g-verde.jpg",
-    "thumbnailImage": "https://www.ipodtotal.com/imagenes/modelos/ipod-mini-1g-verde.jpg",
+    "heroImage": "https://retrospekt.com/cdn/shop/files/MP-VR-1007_1.jpg?v=1694629028&width=1000",
+    "thumbnailImage": "https://retrospekt.com/cdn/shop/files/MP-VR-1007_1.jpg?v=1694629028&width=1000",
     "imagePosition": "50% 50%",
     "thumbnailPosition": "50% 50%",
     "colorHex": "#9BB75C",
     "colorGroup": "ライム",
     "sourceUrl": "https://www.apple.com/jp/newsroom/2004/01/06Apple-Introduces-iPod-mini/",
-    "imageSourceUrl": "https://www.ipodtotal.com/imagenes/modelos/ipod-mini-1g-verde.jpg",
+    "imageSourceUrl": "https://retrospekt.com/cdn/shop/files/MP-VR-1007_1.jpg?v=1694629028&width=1000",
     "imageCredit": "参照元サイト（詳細内リンク参照）",
     "imageLicense": "確認中",
     "videoUrl": "",
-    "sortOrder": 5
+    "sortOrder": 5,
+    "imageFit": "contain"
   },
   {
     "id": "c049",
@@ -163,7 +168,8 @@ export const items = [
     "imageCredit": "参照元サイト（詳細内リンク参照）",
     "imageLicense": "確認中",
     "videoUrl": "",
-    "sortOrder": 6
+    "sortOrder": 6,
+    "imageFit": "contain"
   },
   {
     "id": "c050",
@@ -190,7 +196,8 @@ export const items = [
     "imageCredit": "参照元サイト（詳細内リンク参照）",
     "imageLicense": "確認中",
     "videoUrl": "",
-    "sortOrder": 7
+    "sortOrder": 7,
+    "imageFit": "contain"
   },
   {
     "id": "c051",
@@ -217,7 +224,8 @@ export const items = [
     "imageCredit": "参照元サイト（詳細内リンク参照）",
     "imageLicense": "確認中",
     "videoUrl": "",
-    "sortOrder": 8
+    "sortOrder": 8,
+    "imageFit": "contain"
   },
   {
     "id": "c052",
@@ -244,7 +252,8 @@ export const items = [
     "imageCredit": "参照元サイト（詳細内リンク参照）",
     "imageLicense": "確認中",
     "videoUrl": "",
-    "sortOrder": 9
+    "sortOrder": 9,
+    "imageFit": "contain"
   },
   {
     "id": "c053",
@@ -271,7 +280,8 @@ export const items = [
     "imageCredit": "参照元サイト（詳細内リンク参照）",
     "imageLicense": "確認中",
     "videoUrl": "",
-    "sortOrder": 10
+    "sortOrder": 10,
+    "imageFit": "contain"
   },
   {
     "id": "c054",
@@ -297,7 +307,8 @@ export const items = [
     "imageCredit": "参照元サイト（詳細内リンク参照）",
     "imageLicense": "確認中",
     "videoUrl": "",
-    "sortOrder": 11
+    "sortOrder": 11,
+    "imageFit": "contain"
   },
   {
     "id": "c055",
@@ -324,7 +335,8 @@ export const items = [
     "imageCredit": "参照元サイト（詳細内リンク参照）",
     "imageLicense": "確認中",
     "videoUrl": "",
-    "sortOrder": 12
+    "sortOrder": 12,
+    "imageFit": "contain"
   },
   {
     "id": "c001",
@@ -351,7 +363,8 @@ export const items = [
     "imageCredit": "参照元ページ記載",
     "imageLicense": "確認中",
     "videoUrl": "",
-    "sortOrder": 13
+    "sortOrder": 13,
+    "imageFit": "contain"
   },
   {
     "id": "c002",
@@ -378,7 +391,8 @@ export const items = [
     "imageCredit": "参照元ページ記載",
     "imageLicense": "確認中",
     "videoUrl": "",
-    "sortOrder": 14
+    "sortOrder": 14,
+    "imageFit": "contain"
   },
   {
     "id": "c005",
@@ -405,7 +419,8 @@ export const items = [
     "imageCredit": "参照元ページ記載",
     "imageLicense": "確認中",
     "videoUrl": "",
-    "sortOrder": 15
+    "sortOrder": 15,
+    "imageFit": "contain"
   },
   {
     "id": "c006",
@@ -431,7 +446,8 @@ export const items = [
     "imageCredit": "参照元ページ記載",
     "imageLicense": "確認中",
     "videoUrl": "",
-    "sortOrder": 16
+    "sortOrder": 16,
+    "imageFit": "contain"
   },
   {
     "id": "c007",
@@ -458,7 +474,8 @@ export const items = [
     "imageCredit": "参照元ページ記載",
     "imageLicense": "確認中",
     "videoUrl": "",
-    "sortOrder": 17
+    "sortOrder": 17,
+    "imageFit": "contain"
   },
   {
     "id": "c010",
@@ -485,7 +502,8 @@ export const items = [
     "imageCredit": "参照元ページ記載",
     "imageLicense": "確認中",
     "videoUrl": "",
-    "sortOrder": 18
+    "sortOrder": 18,
+    "imageFit": "contain"
   },
   {
     "id": "c011",
@@ -511,7 +529,8 @@ export const items = [
     "imageCredit": "参照元ページ記載",
     "imageLicense": "確認中",
     "videoUrl": "",
-    "sortOrder": 19
+    "sortOrder": 19,
+    "imageFit": "contain"
   },
   {
     "id": "c026",
@@ -537,6 +556,7 @@ export const items = [
     "imageCredit": "参照元ページ記載",
     "imageLicense": "確認中",
     "videoUrl": "",
-    "sortOrder": 20
+    "sortOrder": 20,
+    "imageFit": "contain"
   }
 ];
