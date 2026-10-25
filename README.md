@@ -18,7 +18,7 @@ npm run preview
 
 ## コンテンツ登録
 
-`assets/data.js` の `items` に出典・写真利用条件を確認したアイテムを登録します。写真パスは同ファイルからの相対指定またはHTTPS URL。`heroImage`、`thumbnailImage`、任意の `mobileImage` と、`imagePosition` / `thumbnailPosition`（例 `50% 35%`）で画角を調整できます。トップ画像は原則 `contain` で対象物全体を表示し、余白は同じ画像をぼかした背景で埋めます。風景写真など意図的に画面を埋めたい場合だけ `imageFit: 'cover'` を指定してください。画像は十分な解像度のものを選び、縮小版URLをヒーローに指定しないでください。トップの順序は `sortOrder`、件数は実データから自動算出します。
+`assets/data.js` の `items` に出典・写真利用条件を確認したアイテムを登録します。写真パスは同ファイルからの相対指定またはHTTPS URL。`heroImage`、`thumbnailImage`、任意の `mobileImage` と、`imagePosition` / `thumbnailPosition`（例 `50% 35%`）で画角を調整できます。トップの順序は `sortOrder`、件数は実データから自動算出します。
 
 必須情報は `id`、`slug`（一意）、`name`、`description`、`category`、`heroImage`、`sourceUrl`、`imageSourceUrl`、`imageCredit`、`imageLicense`。その他のフィールドは `data.js` に記載しています。色は `colorHex` からRGB/参考CMYKを自動換算。色分類は `colorGroup`、動画は実在を確認した `videoUrl` のみ登録してください。動画未登録時は欄を表示しません。
 
